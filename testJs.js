@@ -3,11 +3,11 @@ function clickMe(){
 }
 
 function yourName(){
- 	var name = propmt("Please enter your name");
+ 	var name = prompt("Please enter your name","Anonymous");
 	if (name != null){
-	 document.write("Hello " + name);
+	 document.getElementById("write").innerHTML= "Hello " + name + "! this is a demo.";
 	}else{
-	 document.write("Hello Anonymus");
+	 document.getElementById("write").innerHTML= "Hello Anonymus! this is a demo.";
 	} 
 	
 }
