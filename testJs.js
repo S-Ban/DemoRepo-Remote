@@ -1,5 +1,5 @@
 function clickMe(){
-	aletr("Hi there!");
+	alert("Hi there!");
 }
 
 function yourName(){
@@ -7,7 +7,7 @@ function yourName(){
 	if (name != null){
 	 document.write("Hello " + name);
 	}else{
-	 document.write("Hello anonymus");
+	 document.write("Hello Anonymus");
 	} 
 	
 }
